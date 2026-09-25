@@ -42,3 +42,26 @@ On crée une hashmap pour faire correspondre les resultats aux pilotes.
 On commence par parcourir chaque ligne, si on a pas encore ajouté un pilote à la hashmap, on l'ajoute avec son nom et celui de son écurie.  
 On ajoute ensuite les points correspondants à la position de la ligne au resultat du pilote, on peut ensuite incrémenter le compteur de victoire ou de deuxieme si il a une de ces deux positions.
 On copie ensuite le contenue de la hashmap dans une liste pour pouvoir la trier. On doit comparer sur plusieurs criteres comme demandé dans l'enoncé, enfin on retourne la liste.
+
+* ### 3
+
+Extremement similaire à la precedente.
+
+* ### 4
+
+On initialise deux variable une somme pour la moyenne et le nombre de courses prises en comte.
+On parcourt chaque course en ne prenant en compte que celle ou le nom du pilote correspond à celui qu'on veut et il a finit la course, on ajoute sa position à la somme et on incrémente le comteur.
+On va ensuite renvoyer la moyenne arrondi à deux decimales ou un 0 pour eviter une erreur si aucune course n'a ete prise en compte.
+
+## JavaScript
+
+* ### 1
+
+On trie la liste en se basant sur le nombre de points et si le nombre de point est equivalent, sur les victoires. On utilise toSorted pour ne pas affecter la liste d'origine.
+
+* ### 2
+
+On vide le corps pour reinitialiser, ensuite on parcourt la liste, pour chaque ligne, on crée un nouveau tr, on met le dataset, on recupere les valeurs depuis la liste. On va ensuite parcourir les valeurs qu'on vient de recupérer et les assigner a des td qu'on crée puis les ajouter aux tr.
+Enfin on ajoute chaque ligne au corps.
+
+* ### 3
