@@ -65,3 +65,5 @@ On vide le corps pour reinitialiser, ensuite on parcourt la liste, pour chaque l
 Enfin on ajoute chaque ligne au corps.
 
 * ### 3
+
+On recupere le corps du document et tous les tr ensuite on va parcourir ces tr et ajouter la classe s'il sont dans les 3 premiers et sinon, on l'enleve grace au toggle.
