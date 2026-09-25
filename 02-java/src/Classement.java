@@ -44,9 +44,9 @@ public class Classement {
             case 10:
                 return 1;
             default:
-                break;
+                return 0;
         }
-        return 0;
+        
     }
 
     // 2. classementPilotes(lignes) : un Resultat par pilote, avec ses points,
